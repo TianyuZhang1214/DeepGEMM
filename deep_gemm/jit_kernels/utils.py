@@ -54,7 +54,7 @@ def get_m_alignment_for_contiguous_layout():
     """
     # TODO(neo.zty): adjust it from 128 to 64 according to:
     #  https://github.com/deepseek-ai/DeepGEMM/issues/85
-    return 64
+    return 128
 
 
 def get_tma_aligned_size(x: int, element_size: int) -> int:
